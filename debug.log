@@ -1140,3 +1140,5 @@
 [2026-01-15 12:35:23,894] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa180 encrypted: 0102030405ffffff -> 424d033346ffffff
 [2026-01-15 12:35:23,961] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa180
 [2026-01-15 12:35:23,961] chirp.wxui.serialtrace - INFO: Serial trace file closed: C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-hmp883pe.txt
+[2026-01-15 12:49:48,252] chirp.wxui.serialtrace - DEBUG: Removed old trace file C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-5arl09jv.txt
+[2026-01-15 12:49:48,253] chirp.wxui.serialtrace - DEBUG: Removed old trace file C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-hmp883pe.txt
