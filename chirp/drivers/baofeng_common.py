@@ -34,9 +34,10 @@ TXPOWER_LOW = 0x02
 
 
 def _clean_buffer(radio):
+    prev_timeout = getattr(radio.pipe, 'timeout', STIMEOUT)
     radio.pipe.timeout = 0.005
     junk = radio.pipe.read(256)
-    radio.pipe.timeout = STIMEOUT
+    radio.pipe.timeout = prev_timeout
     if junk:
         LOG.debug("Got %i bytes of junk before starting" % len(junk))
 

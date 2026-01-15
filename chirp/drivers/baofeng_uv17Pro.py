@@ -107,6 +107,78 @@ def _sendmagic(radio, magic, response_len):
     return bfc._rawrecv(radio, response_len)
 
 
+def _is_ble_port(radio):
+    """Detect if using BLE connection via ble-serial or com0com bridge"""
+    # First check if this radio model supports BLE
+    if not hasattr(radio, 'BLE_BLOCK_SIZE'):
+        LOG.debug('Model %s does not support BLE_BLOCK_SIZE', radio.MODEL)
+        return False
+    
+    if hasattr(radio, 'pipe') and hasattr(radio.pipe, 'port'):
+        port = str(radio.pipe.port).lower()
+        LOG.debug('Checking port: %s', port)
+        
+        # Detect ble-serial ports
+        # Direct BLE: /tmp/ttyble, /dev/ttyble, or contains "ble"
+        if 'ble' in port or '/tmp/ttyble' in port:
+            LOG.info('Port %s detected as BLE (direct)', radio.pipe.port)
+            return True
+        
+        # com0com bridge: check if it's a COM port connected to ble-serial
+        # com0com ports look like: COM10 (Null-modem emulator)
+        # We assume COM10-COM20 might be ble-serial bridges
+        # A better heuristic: if it's COM11+ and high number, likely a bridge
+        import re
+        match = re.match(r'com(\d+)', port)
+        if match:
+            com_num = int(match.group(1))
+            # COM10 and higher are likely virtual/bridge ports on Windows
+            if com_num >= 10:
+                LOG.info('Port %s appears to be a virtual/bridge port (COM%d)', 
+                         radio.pipe.port, com_num)
+                # For com0com bridge from ble-serial, we'll treat COM10+ as potential BLE
+                # This is a heuristic - ideally would verify the actual connection
+                return True
+        
+        LOG.info('Port %s is not detected as BLE', radio.pipe.port)
+        return False
+    
+    LOG.debug('No pipe or port found on radio object')
+    return False
+
+
+def _do_ident_ble(radio):
+    """BLE-specific identification with adjusted parameters"""
+    ble_timeout = 5.0
+    LOG.info('Using BLE identification sequence (timeout %.1fs)', ble_timeout)
+    radio.pipe.timeout = ble_timeout  # Increase timeout for BLE
+    
+    for ident in radio._idents:
+        # Flush input buffer (preserves timeout)
+        bfc._clean_buffer(radio)
+        radio.pipe.timeout = ble_timeout
+
+        # Ident radio
+        LOG.debug('Sending ident magic (BLE): %r', ident)
+        try:
+            ack = _sendmagic(radio, ident, len(radio._fingerprint))
+            if not ack.startswith(radio._fingerprint):
+                LOG.debug('Ack %r did not match fingerprint: %r', ack,
+                          radio._fingerprint)
+                continue
+        except errors.RadioError:
+            LOG.debug('Radio did not respond to ident magic: %r', ident)
+            continue
+
+        for magic, resplen in radio._magics:
+            _sendmagic(radio, magic, resplen)
+        
+        
+        return True
+
+    raise errors.RadioError("Radio did not respond as expected (A)")
+
+
 def _do_ident(radio):
     for ident in radio._idents:
         # Flush input buffer
@@ -169,6 +241,59 @@ def _download(radio):
             # UI Update
             status.cur = len(data) // radio.BLOCK_SIZE
             status.msg = "Cloning from radio..."
+            radio.status_fn(status)
+    return data
+
+
+def _upload_ble(radio):
+    """BLE-specific upload with 128-byte blocks"""
+    # Verify this class supports BLE
+    if not hasattr(radio, 'BLE_BLOCK_SIZE'):
+        LOG.error('BLE_BLOCK_SIZE not defined for %s, falling back to USB',
+                  radio.MODEL)
+        return _upload(radio)
+    
+    # Put radio in program mode and identify it
+    _do_ident_ble(radio)
+    data = b""
+    
+    # Use 128-byte blocks for BLE
+    block_size = radio.BLE_BLOCK_SIZE
+    LOG.info('Using BLE block size: %d bytes', block_size)
+
+    # UI progress
+    status = chirp_common.Status()
+    status.cur = 0
+    status.max = radio.MEM_TOTAL // block_size
+    status.msg = "Cloning to radio..."
+    radio.status_fn(status)
+
+    data_addr = 0x00
+    radio_mem = radio.get_mmap()
+    for i in range(len(radio.MEM_SIZES)):
+        MEM_SIZE = radio.MEM_SIZES[i]
+        MEM_START = radio.MEM_STARTS[i]
+        for addr in range(MEM_START, MEM_START + MEM_SIZE, block_size):
+            data = radio_mem[data_addr:data_addr + block_size]
+            if radio._uses_encr:
+                data = _crypt(radio._encrsym, data)
+            data_addr += block_size
+
+            frame = radio._make_frame(b"W", addr, block_size, data)
+            radio.pipe.log('Sending address %04x (BLE block size: %d)' % (addr, block_size))
+            bfc._rawsend(radio, frame)
+
+            ack = bfc._rawrecv(radio, 1)
+            if ack != b"\x06":
+                msg = "Bad ack writing block 0x%04x (got %r)" % (addr, ack)
+                LOG.error(msg)
+                raise errors.RadioError(msg)
+            else:
+                LOG.debug('ACK received for block 0x%04x', addr)
+
+            # UI Update
+            status.cur = data_addr // block_size
+            status.msg = "Cloning to radio..."
             radio.status_fn(status)
     return data
 
@@ -483,7 +608,7 @@ class UV17Pro(bfc.BaofengCommonHT):
 
     def _make_frame(self, cmd, addr, length, data=""):
         """Pack the info in the header format"""
-        frame = cmd + struct.pack(">i", addr)[2:] + struct.pack("b", length)
+        frame = cmd + struct.pack(">i", addr)[2:] + struct.pack("B", length)
         # add the data if set
         if len(data) != 0:
             frame += data
@@ -2178,6 +2303,9 @@ class UV5RMini(UV17Pro):
     MEM_SIZES = [0x8040, 0x0040, 0x01C0]
 
     MEM_TOTAL = 0x8240
+    
+    # BLE uses 128-byte blocks (0x80) vs USB 64-byte blocks (0x40)
+    BLE_BLOCK_SIZE = 0x80
 
     _has_support_for_banknames = False
 
@@ -2195,6 +2323,30 @@ class UV5RMini(UV17Pro):
     CHANNELS = 999
 
     STEPS = [2.5, 5.0, 6.25, 8.33, 10.0, 12.5, 20.0, 25.0, 50.0]
+
+    _uhf_rx1_range = (350000000, 390000000)
+    _uhf_range = (400000000, 480000000)
+    _uhf_rx2_range = (480000000, 520000000)
+    VALID_BANDS = [UV17Pro._airband,
+                   UV17Pro._vhf_range,
+                   _uhf_rx1_range,
+                   _uhf_range,
+                   _uhf_rx2_range]
+    MODES = UV17Pro.MODES + ['AM']
+    
+    # Use BLE upload function when connected via ble-serial
+    def sync_out(self):
+        """Upload to radio - Auto-select BLE or USB implementation"""
+        LOG.info('sync_out() called for %s model', self.MODEL)
+        if hasattr(self, 'pipe') and hasattr(self.pipe, 'port'):
+            LOG.info('Current port: %s', self.pipe.port)
+        
+        if _is_ble_port(self):
+            LOG.info('Using BLE upload implementation')
+            _upload_ble(self)
+        else:
+            LOG.info('Using USB upload implementation')
+            _upload(self)
 
     _uhf_rx1_range = (350000000, 390000000)
     _uhf_range = (400000000, 480000000)
