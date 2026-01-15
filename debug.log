@@ -1,0 +1,8 @@
+[2026-01-15 12:31:18,224] chirp.logger - DEBUG: log level=10
+[2026-01-15 12:31:18,231] chirp.logger - DEBUG: CHIRP py3dev on Win32 (Unknown 10.0:26100) (Python 3.13.7)
+[2026-01-15 12:31:18,300] chirp.wxui - DEBUG: Using locale: es_ES (758)
+[2026-01-15 12:31:18,304] chirp.wxui - DEBUG: Translation loaded=False for CHIRP:  () from C:\Users\Dedosoa\Documents\radio\chirp\chirp\locale
+[2026-01-15 12:31:18,307] chirp.wxui - DEBUG: Translation loaded=True for wxstd: es (af,an,ar,ca,ca@valencia,co,cs,da,de,el,es,eu,fa_IR,fi,fr,gl_ES,hi,hr,hu,id,it,ja,ka,ko_KR,lt,lv,ms,nb,ne,nl,pl,pt,pt_BR,ro,ru,sk,sl,sq,sr,sv,ta,tr,uk,vi,zh_CN,zh_TW)
+[2026-01-15 12:31:18,528] main - INFO: Python/3.13.7 // Windows/Windows-11-10.0.26100-SP0 // CHIRP/py3dev // wx/4.2.4 msw (phoenix) wxWidgets 3.2.8
+[2026-01-15 12:31:18,680] chirp.wxui.main - DEBUG: Recent is now ['C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_20260115.img', 'C:\\Users\\Dedosoa\\Documents\\radio\\chirp\\chirp\\stock_configs\\EU LPD and PMR Channels.csv', 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_EA4ITG_V3_10-12-25 CHIRP.img']
+[2026-01-15 12:31:19,052] chirp.wxui.main - INFO: Server reports next-20260109 is latest

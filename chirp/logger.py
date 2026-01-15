@@ -115,7 +115,7 @@ class Logger(object):
             self.create_log_file(logname)
             level = os.getenv("CHIRP_LOG_LEVEL")
             if level is not None:
-                self.set_log_verbosity(level)
+                self.set_log_level_by_name(level)
             else:
                 self.set_log_level(logging.DEBUG)
 
