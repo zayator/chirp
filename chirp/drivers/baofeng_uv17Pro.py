@@ -273,7 +273,6 @@ def _upload_ble(radio):
     for i in range(len(radio.MEM_SIZES)):
         MEM_SIZE = radio.MEM_SIZES[i]
         MEM_START = radio.MEM_STARTS[i]
-        LOG.info('BLE Segment %d: 0x%04x-0x%04x (size 0x%04x)', i, MEM_START, MEM_START + MEM_SIZE, MEM_SIZE)
         for addr in range(MEM_START, MEM_START + MEM_SIZE, block_size):
             # Calculate actual bytes to read from this segment
             # How many bytes left in this segment from current address?
@@ -281,7 +280,7 @@ def _upload_ble(radio):
             bytes_to_read = min(block_size, bytes_remaining_in_segment)
             
             data = radio_mem[data_addr:data_addr + bytes_to_read]
-            
+
             # Pad with 0xFF BEFORE encryption (padding must be part of encrypted block)
             if len(data) < block_size:
                 LOG.debug('Padding block at 0x%04x (data_addr=0x%04x): %d bytes -> %d bytes', 
@@ -289,10 +288,7 @@ def _upload_ble(radio):
                 data = data + (b'\xff' * (block_size - len(data)))
             # Now encrypt the full 128-byte block
             if radio._uses_encr:
-                data_before = data[:8]
                 data = _crypt(radio._encrsym, data)
-                data_after = data[:8]
-                LOG.debug('Block 0x%04x encrypted: %s -> %s', addr, data_before.hex(), data_after.hex())
             data_addr += bytes_to_read
 
             frame = radio._make_frame(b"W", addr, block_size, data)

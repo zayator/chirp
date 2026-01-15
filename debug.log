@@ -6,3 +6,1137 @@
 [2026-01-15 12:31:18,528] main - INFO: Python/3.13.7 // Windows/Windows-11-10.0.26100-SP0 // CHIRP/py3dev // wx/4.2.4 msw (phoenix) wxWidgets 3.2.8
 [2026-01-15 12:31:18,680] chirp.wxui.main - DEBUG: Recent is now ['C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_20260115.img', 'C:\\Users\\Dedosoa\\Documents\\radio\\chirp\\chirp\\stock_configs\\EU LPD and PMR Channels.csv', 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_EA4ITG_V3_10-12-25 CHIRP.img']
 [2026-01-15 12:31:19,052] chirp.wxui.main - INFO: Server reports next-20260109 is latest
+[2026-01-15 12:31:27,019] chirp.wxui.main - DEBUG: Doing open from 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_20260115.img'
+[2026-01-15 12:31:27,019] chirp.chirp_common - DEBUG: Loaded metadata: {'mem_extra': {}, 'rclass': 'UV5RMini', 'vendor': 'Baofeng', 'model': 'UV-5R Mini', 'variant': '', 'chirp_version': 'py3dev'}
+[2026-01-15 12:31:27,020] chirp.chirp_common - DEBUG: Loaded metadata: {'mem_extra': {}, 'rclass': 'UV5RMini', 'vendor': 'Baofeng', 'model': 'UV-5R Mini', 'variant': '', 'chirp_version': 'py3dev'}
+[2026-01-15 12:31:27,020] chirp.chirp_common - DEBUG: Parsed version 'py3dev' to (0,)
+[2026-01-15 12:31:27,020] chirp.chirp_common - DEBUG: Parsed version 'py3dev' to (0,)
+[2026-01-15 12:31:27,156] chirp.wxui.common - WARNING: Not showing 0 lines of logs (error=False,show=True)
+[2026-01-15 12:31:27,158] chirp.wxui.main - DEBUG: File exists in recent, moving to front
+[2026-01-15 12:31:27,158] chirp.wxui.main - DEBUG: Recent is now ['C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_20260115.img', 'C:\\Users\\Dedosoa\\Documents\\radio\\chirp\\chirp\\stock_configs\\EU LPD and PMR Channels.csv', 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_EA4ITG_V3_10-12-25 CHIRP.img']
+[2026-01-15 12:31:27,206] chirp.wxui.memedit - DEBUG: Adding mem.extra column bcl as ChirpFlagColumn
+[2026-01-15 12:31:27,207] chirp.wxui.memedit - DEBUG: Adding mem.extra column pttid as ChirpChoiceColumn
+[2026-01-15 12:31:27,208] chirp.wxui.memedit - DEBUG: Adding mem.extra column scode as ChirpChoiceColumn
+[2026-01-15 12:31:27,209] chirp.wxui.memedit - DEBUG: Adding mem.extra column sqmode as ChirpFlagColumn
+[2026-01-15 12:31:27,210] chirp.wxui.memedit - DEBUG: Adding mem.extra column fhss as ChirpFlagColumn
+[2026-01-15 12:31:41,602] chirp.wxui.main - INFO: Saved upload backup to C:\Users\Dedosoa\AppData\Roaming\CHIRP\backups\Baofeng_UV-5R_Mini_upload_20260115T123141.img
+[2026-01-15 12:31:41,618] chirp.wxui.clone - DEBUG: All system ports: [{'device': 'COM1', 'name': 'COM1', 'description': 'Puerto de comunicaciones (COM1)', 'hwid': 'ACPI\\PNP0501\\0', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': '(Tipos de puerto estándar)', 'product': None, 'interface': None}, {'device': 'COM6', 'name': 'COM6', 'description': 'com0com - serial port emulator (COM6)', 'hwid': 'COM0COM\\PORT\\CNCA1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}, {'device': 'COM7', 'name': 'COM7', 'description': 'com0com - serial port emulator (COM7)', 'hwid': 'COM0COM\\PORT\\CNCB1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}]
+[2026-01-15 12:31:41,625] chirp.wxui.clone - WARNING: Last port 'COM10' is unavailable, defaulting to ('COM1', 'COM1: Puerto de comunicaciones (COM1)')
+[2026-01-15 12:31:41,708] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:31:41,709] chirp.wxui.clone - DEBUG: Port COM10 not in current list
+[2026-01-15 12:31:41,709] chirp.wxui.clone - DEBUG: No recent/available port for Baofeng UV-5R Mini
+[2026-01-15 12:31:41,748] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:31:41,748] chirp.wxui.clone - DEBUG: Port COM10 not in current list
+[2026-01-15 12:31:41,748] chirp.wxui.clone - DEBUG: No recent/available port for Baofeng UV-5R Mini
+[2026-01-15 12:31:47,564] chirp.wxui.clone - DEBUG: All system ports: [{'device': 'COM1', 'name': 'COM1', 'description': 'Puerto de comunicaciones (COM1)', 'hwid': 'ACPI\\PNP0501\\0', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': '(Tipos de puerto estándar)', 'product': None, 'interface': None}, {'device': 'COM6', 'name': 'COM6', 'description': 'com0com - serial port emulator (COM6)', 'hwid': 'COM0COM\\PORT\\CNCA1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}, {'device': 'COM7', 'name': 'COM7', 'description': 'com0com - serial port emulator (COM7)', 'hwid': 'COM0COM\\PORT\\CNCB1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}]
+[2026-01-15 12:31:51,843] chirp.wxui.clone - DEBUG: Showing pre_upload prompt
+[2026-01-15 12:31:53,209] chirp.wxui.clone - DEBUG: Setting flag for prompt pre_upload
+[2026-01-15 12:31:53,209] chirp.wxui.clone - DEBUG: Opening serial 'COM10' after upload prompt
+[2026-01-15 12:31:53,211] chirp.wxui.serialtrace - INFO: Serial trace file created: C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-5arl09jv.txt
+[2026-01-15 12:31:53,211] chirp.wxui.clone - DEBUG: Serial opened: SerialTrace<id=0x1b8531a4490, open=True>(port='COM10', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=0.25, xonxoff=False, rtscts=False, dsrdtr=False) (rts=True dtr=True)
+[2026-01-15 12:31:53,211] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:31:53,211] chirp.wxui.clone - DEBUG: Recorded last-used port COM10 for Baofeng UV-5R Mini
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - INFO: sync_out() called for UV-5R Mini model
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - INFO: Current port: COM10
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - DEBUG: Checking port: com10
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - INFO: Port COM10 appears to be a virtual/bridge port (COM10)
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE upload implementation
+[2026-01-15 12:31:53,212] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE identification sequence (timeout 5.0s)
+[2026-01-15 12:31:53,222] chirp.drivers.baofeng_uv17Pro - DEBUG: Sending ident magic (BLE): b'PROGRAMCOLORPROU'
+[2026-01-15 12:31:53,873] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE block size: 128 bytes
+[2026-01-15 12:31:53,873] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 0: 0x0000-0x8040 (size 0x8040)
+[2026-01-15 12:31:53,874] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0000 encrypted: 2506604425066044 -> 6649607366496073
+[2026-01-15 12:31:53,941] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0000
+[2026-01-15 12:31:53,941] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0080 encrypted: 2556604425566044 -> 6619607366196073
+[2026-01-15 12:31:54,031] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0080
+[2026-01-15 12:31:54,031] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0100 encrypted: 2506614425066144 -> 6649617366496173
+[2026-01-15 12:31:54,098] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0100
+[2026-01-15 12:31:54,099] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0180 encrypted: 0025724300257243 -> 006a7274006a7274
+[2026-01-15 12:31:54,166] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0180
+[2026-01-15 12:31:54,166] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0200 encrypted: 0025154300251543 -> 006a1574006a1574
+[2026-01-15 12:31:54,233] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0200
+[2026-01-15 12:31:54,233] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0280 encrypted: 0025554300255543 -> 006a5574006a5574
+[2026-01-15 12:31:54,301] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0280
+[2026-01-15 12:31:54,301] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,368] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0300
+[2026-01-15 12:31:54,368] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,436] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0380
+[2026-01-15 12:31:54,436] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,503] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0400
+[2026-01-15 12:31:54,503] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,571] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0480
+[2026-01-15 12:31:54,571] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,638] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0500
+[2026-01-15 12:31:54,639] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,706] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0580
+[2026-01-15 12:31:54,706] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,773] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0600
+[2026-01-15 12:31:54,773] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,841] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0680
+[2026-01-15 12:31:54,841] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,908] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0700
+[2026-01-15 12:31:54,908] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:54,976] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0780
+[2026-01-15 12:31:54,976] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,043] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0800
+[2026-01-15 12:31:55,044] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,111] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0880
+[2026-01-15 12:31:55,111] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,178] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0900
+[2026-01-15 12:31:55,179] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,246] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0980
+[2026-01-15 12:31:55,246] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,313] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0a00
+[2026-01-15 12:31:55,314] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,381] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0a80
+[2026-01-15 12:31:55,381] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,448] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0b00
+[2026-01-15 12:31:55,448] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,516] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0b80
+[2026-01-15 12:31:55,516] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,583] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0c00
+[2026-01-15 12:31:55,583] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,673] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0c80
+[2026-01-15 12:31:55,674] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,741] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0d00
+[2026-01-15 12:31:55,741] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,808] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0d80
+[2026-01-15 12:31:55,809] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,876] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0e00
+[2026-01-15 12:31:55,876] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:55,943] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0e80
+[2026-01-15 12:31:55,943] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,011] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0f00
+[2026-01-15 12:31:56,011] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,078] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0f80
+[2026-01-15 12:31:56,078] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,146] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1000
+[2026-01-15 12:31:56,146] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,213] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1080
+[2026-01-15 12:31:56,213] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,281] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1100
+[2026-01-15 12:31:56,281] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,348] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1180
+[2026-01-15 12:31:56,348] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,416] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1200
+[2026-01-15 12:31:56,416] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,483] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1280
+[2026-01-15 12:31:56,483] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,551] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1300
+[2026-01-15 12:31:56,551] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,618] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1380
+[2026-01-15 12:31:56,619] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,686] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1400
+[2026-01-15 12:31:56,686] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,753] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1480
+[2026-01-15 12:31:56,754] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,821] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1500
+[2026-01-15 12:31:56,821] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,888] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1580
+[2026-01-15 12:31:56,889] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:56,956] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1600
+[2026-01-15 12:31:56,956] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,023] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1680
+[2026-01-15 12:31:57,024] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,091] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1700
+[2026-01-15 12:31:57,091] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,158] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1780
+[2026-01-15 12:31:57,159] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,248] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1800
+[2026-01-15 12:31:57,248] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,316] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1880
+[2026-01-15 12:31:57,316] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,383] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1900
+[2026-01-15 12:31:57,383] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,473] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1980
+[2026-01-15 12:31:57,474] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,541] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1a00
+[2026-01-15 12:31:57,541] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,608] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1a80
+[2026-01-15 12:31:57,609] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,676] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1b00
+[2026-01-15 12:31:57,676] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,743] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1b80
+[2026-01-15 12:31:57,744] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,856] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1c00
+[2026-01-15 12:31:57,856] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,923] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1c80
+[2026-01-15 12:31:57,924] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:57,991] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1d00
+[2026-01-15 12:31:57,991] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,081] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1d80
+[2026-01-15 12:31:58,081] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,148] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1e00
+[2026-01-15 12:31:58,149] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,216] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1e80
+[2026-01-15 12:31:58,216] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,283] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1f00
+[2026-01-15 12:31:58,283] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,351] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1f80
+[2026-01-15 12:31:58,351] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,418] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2000
+[2026-01-15 12:31:58,418] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,486] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2080
+[2026-01-15 12:31:58,486] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,553] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2100
+[2026-01-15 12:31:58,554] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,643] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2180
+[2026-01-15 12:31:58,644] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,733] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2200
+[2026-01-15 12:31:58,734] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,801] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2280
+[2026-01-15 12:31:58,801] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,868] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2300
+[2026-01-15 12:31:58,869] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:58,936] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2380
+[2026-01-15 12:31:58,936] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,003] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2400
+[2026-01-15 12:31:59,004] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,071] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2480
+[2026-01-15 12:31:59,071] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,138] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2500
+[2026-01-15 12:31:59,139] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,206] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2580
+[2026-01-15 12:31:59,206] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,273] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2600
+[2026-01-15 12:31:59,274] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,341] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2680
+[2026-01-15 12:31:59,341] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,409] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2700
+[2026-01-15 12:31:59,409] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,476] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2780
+[2026-01-15 12:31:59,476] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,544] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2800
+[2026-01-15 12:31:59,544] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,611] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2880
+[2026-01-15 12:31:59,611] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,678] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2900
+[2026-01-15 12:31:59,679] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,746] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2980
+[2026-01-15 12:31:59,746] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,813] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2a00
+[2026-01-15 12:31:59,814] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,903] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2a80
+[2026-01-15 12:31:59,904] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:31:59,971] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2b00
+[2026-01-15 12:31:59,971] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,038] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2b80
+[2026-01-15 12:32:00,039] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,106] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2c00
+[2026-01-15 12:32:00,106] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,173] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2c80
+[2026-01-15 12:32:00,174] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,241] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2d00
+[2026-01-15 12:32:00,241] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,308] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2d80
+[2026-01-15 12:32:00,309] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,376] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2e00
+[2026-01-15 12:32:00,376] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,443] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2e80
+[2026-01-15 12:32:00,444] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,533] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2f00
+[2026-01-15 12:32:00,534] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,601] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2f80
+[2026-01-15 12:32:00,601] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,668] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3000
+[2026-01-15 12:32:00,669] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,736] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3080
+[2026-01-15 12:32:00,736] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,803] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3100
+[2026-01-15 12:32:00,804] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,871] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3180
+[2026-01-15 12:32:00,871] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:00,938] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3200
+[2026-01-15 12:32:00,939] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,051] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3280
+[2026-01-15 12:32:01,051] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,119] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3300
+[2026-01-15 12:32:01,119] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,186] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3380
+[2026-01-15 12:32:01,186] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,253] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3400
+[2026-01-15 12:32:01,254] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,343] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3480
+[2026-01-15 12:32:01,344] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,411] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3500
+[2026-01-15 12:32:01,411] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,478] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3580
+[2026-01-15 12:32:01,479] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,568] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3600
+[2026-01-15 12:32:01,569] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,636] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3680
+[2026-01-15 12:32:01,636] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,703] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3700
+[2026-01-15 12:32:01,704] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,771] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3780
+[2026-01-15 12:32:01,771] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,838] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3800
+[2026-01-15 12:32:01,839] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,906] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3880
+[2026-01-15 12:32:01,906] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:01,996] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3900
+[2026-01-15 12:32:01,996] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,064] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3980
+[2026-01-15 12:32:02,064] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,131] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3a00
+[2026-01-15 12:32:02,131] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,198] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3a80
+[2026-01-15 12:32:02,199] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,266] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3b00
+[2026-01-15 12:32:02,266] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,333] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3b80
+[2026-01-15 12:32:02,334] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,401] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3c00
+[2026-01-15 12:32:02,401] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,469] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3c80
+[2026-01-15 12:32:02,469] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,536] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3d00
+[2026-01-15 12:32:02,536] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,603] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3d80
+[2026-01-15 12:32:02,604] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,671] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3e00
+[2026-01-15 12:32:02,672] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,738] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3e80
+[2026-01-15 12:32:02,739] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,806] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3f00
+[2026-01-15 12:32:02,806] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,873] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3f80
+[2026-01-15 12:32:02,874] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:02,941] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4000
+[2026-01-15 12:32:02,941] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,008] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4080
+[2026-01-15 12:32:03,009] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,076] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4100
+[2026-01-15 12:32:03,076] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,143] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4180
+[2026-01-15 12:32:03,144] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,211] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4200
+[2026-01-15 12:32:03,212] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,278] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4280
+[2026-01-15 12:32:03,279] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,346] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4300
+[2026-01-15 12:32:03,346] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,413] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4380
+[2026-01-15 12:32:03,414] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,481] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4400
+[2026-01-15 12:32:03,481] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,549] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4480
+[2026-01-15 12:32:03,549] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,616] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4500
+[2026-01-15 12:32:03,617] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,683] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4580
+[2026-01-15 12:32:03,684] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,773] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4600
+[2026-01-15 12:32:03,774] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,864] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4680
+[2026-01-15 12:32:03,864] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,931] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4700
+[2026-01-15 12:32:03,931] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:03,999] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4780
+[2026-01-15 12:32:03,999] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,066] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4800
+[2026-01-15 12:32:04,066] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,134] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4880
+[2026-01-15 12:32:04,134] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,201] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4900
+[2026-01-15 12:32:04,201] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,269] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4980
+[2026-01-15 12:32:04,269] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,336] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4a00
+[2026-01-15 12:32:04,336] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,403] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4a80
+[2026-01-15 12:32:04,404] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,471] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4b00
+[2026-01-15 12:32:04,471] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,539] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4b80
+[2026-01-15 12:32:04,539] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,606] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4c00
+[2026-01-15 12:32:04,606] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,674] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4c80
+[2026-01-15 12:32:04,674] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,741] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4d00
+[2026-01-15 12:32:04,741] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,831] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4d80
+[2026-01-15 12:32:04,831] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,898] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4e00
+[2026-01-15 12:32:04,899] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:04,966] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4e80
+[2026-01-15 12:32:04,966] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,056] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4f00
+[2026-01-15 12:32:05,056] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,124] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4f80
+[2026-01-15 12:32:05,124] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,213] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5000
+[2026-01-15 12:32:05,214] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,281] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5080
+[2026-01-15 12:32:05,281] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,348] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5100
+[2026-01-15 12:32:05,349] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,416] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5180
+[2026-01-15 12:32:05,416] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,483] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5200
+[2026-01-15 12:32:05,484] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,551] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5280
+[2026-01-15 12:32:05,551] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,619] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5300
+[2026-01-15 12:32:05,619] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,686] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5380
+[2026-01-15 12:32:05,686] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,754] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5400
+[2026-01-15 12:32:05,754] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,821] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5480
+[2026-01-15 12:32:05,821] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,889] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5500
+[2026-01-15 12:32:05,889] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:05,956] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5580
+[2026-01-15 12:32:05,956] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,024] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5600
+[2026-01-15 12:32:06,024] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,091] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5680
+[2026-01-15 12:32:06,091] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,181] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5700
+[2026-01-15 12:32:06,181] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,248] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5780
+[2026-01-15 12:32:06,249] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,316] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5800
+[2026-01-15 12:32:06,316] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,384] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5880
+[2026-01-15 12:32:06,384] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,474] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5900
+[2026-01-15 12:32:06,474] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,541] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5980
+[2026-01-15 12:32:06,541] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,608] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5a00
+[2026-01-15 12:32:06,609] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,676] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5a80
+[2026-01-15 12:32:06,677] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,744] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5b00
+[2026-01-15 12:32:06,744] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,833] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5b80
+[2026-01-15 12:32:06,834] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,901] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5c00
+[2026-01-15 12:32:06,901] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:06,969] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5c80
+[2026-01-15 12:32:06,969] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,036] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5d00
+[2026-01-15 12:32:07,037] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,104] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5d80
+[2026-01-15 12:32:07,104] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,171] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5e00
+[2026-01-15 12:32:07,172] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,239] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5e80
+[2026-01-15 12:32:07,239] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,306] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5f00
+[2026-01-15 12:32:07,306] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,373] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5f80
+[2026-01-15 12:32:07,374] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,441] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6000
+[2026-01-15 12:32:07,442] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,509] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6080
+[2026-01-15 12:32:07,509] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,576] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6100
+[2026-01-15 12:32:07,577] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,644] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6180
+[2026-01-15 12:32:07,644] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,711] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6200
+[2026-01-15 12:32:07,711] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,779] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6280
+[2026-01-15 12:32:07,779] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,846] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6300
+[2026-01-15 12:32:07,847] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,914] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6380
+[2026-01-15 12:32:07,914] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:07,981] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6400
+[2026-01-15 12:32:07,981] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,049] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6480
+[2026-01-15 12:32:08,049] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,116] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6500
+[2026-01-15 12:32:08,116] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,184] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6580
+[2026-01-15 12:32:08,184] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,274] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6600
+[2026-01-15 12:32:08,274] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,341] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6680
+[2026-01-15 12:32:08,342] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,408] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6700
+[2026-01-15 12:32:08,409] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,476] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6780
+[2026-01-15 12:32:08,477] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,544] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6800
+[2026-01-15 12:32:08,544] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,611] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6880
+[2026-01-15 12:32:08,611] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,679] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6900
+[2026-01-15 12:32:08,679] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,746] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6980
+[2026-01-15 12:32:08,746] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,814] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6a00
+[2026-01-15 12:32:08,814] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,904] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6a80
+[2026-01-15 12:32:08,904] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:08,971] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6b00
+[2026-01-15 12:32:08,971] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,039] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6b80
+[2026-01-15 12:32:09,039] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,106] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6c00
+[2026-01-15 12:32:09,106] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,173] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6c80
+[2026-01-15 12:32:09,174] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,241] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6d00
+[2026-01-15 12:32:09,241] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,331] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6d80
+[2026-01-15 12:32:09,331] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,399] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6e00
+[2026-01-15 12:32:09,399] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,466] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6e80
+[2026-01-15 12:32:09,466] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,534] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6f00
+[2026-01-15 12:32:09,534] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,601] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6f80
+[2026-01-15 12:32:09,601] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,669] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7000
+[2026-01-15 12:32:09,669] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,736] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7080
+[2026-01-15 12:32:09,737] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,826] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7100
+[2026-01-15 12:32:09,826] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,894] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7180
+[2026-01-15 12:32:09,894] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:09,961] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7200
+[2026-01-15 12:32:09,961] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,029] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7280
+[2026-01-15 12:32:10,029] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,096] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7300
+[2026-01-15 12:32:10,097] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,164] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7380
+[2026-01-15 12:32:10,164] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,231] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7400
+[2026-01-15 12:32:10,231] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,299] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7480
+[2026-01-15 12:32:10,299] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,389] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7500
+[2026-01-15 12:32:10,389] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,456] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7580
+[2026-01-15 12:32:10,456] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,524] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7600
+[2026-01-15 12:32:10,524] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,591] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7680
+[2026-01-15 12:32:10,592] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,659] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7700
+[2026-01-15 12:32:10,659] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,749] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7780
+[2026-01-15 12:32:10,749] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,816] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7800
+[2026-01-15 12:32:10,816] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,884] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7880
+[2026-01-15 12:32:10,884] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:10,951] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7900
+[2026-01-15 12:32:10,951] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,019] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7980
+[2026-01-15 12:32:11,019] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,086] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7a00
+[2026-01-15 12:32:11,086] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,154] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7a80
+[2026-01-15 12:32:11,154] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,221] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7b00
+[2026-01-15 12:32:11,221] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,289] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7b80
+[2026-01-15 12:32:11,289] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,356] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7c00
+[2026-01-15 12:32:11,356] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,424] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7c80
+[2026-01-15 12:32:11,424] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,491] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7d00
+[2026-01-15 12:32:11,492] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,559] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7d80
+[2026-01-15 12:32:11,559] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,626] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7e00
+[2026-01-15 12:32:11,627] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,716] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7e80
+[2026-01-15 12:32:11,717] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,784] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7f00
+[2026-01-15 12:32:11,784] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:32:11,851] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7f80
+[2026-01-15 12:32:11,852] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0x8000 (data_addr=0x8000): 64 bytes -> 128 bytes
+[2026-01-15 12:32:11,852] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x8000 encrypted: 0102050300080201 -> 424d053400470236
+[2026-01-15 12:32:11,919] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x8000
+[2026-01-15 12:32:11,919] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 1: 0x9000-0x9040 (size 0x0040)
+[2026-01-15 12:32:11,919] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0x9000 (data_addr=0x8040): 64 bytes -> 128 bytes
+[2026-01-15 12:32:11,919] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x9000 encrypted: 0300040100080000 -> 4000043600470000
+[2026-01-15 12:32:11,986] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x9000
+[2026-01-15 12:32:11,986] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 2: 0xa000-0xa1c0 (size 0x01c0)
+[2026-01-15 12:32:11,987] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa000 encrypted: 010000ffffffff01 -> 420000ffffffff36
+[2026-01-15 12:32:12,076] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa000
+[2026-01-15 12:32:12,077] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa080 encrypted: 010007ffffb3c9d4 -> 420007fffffcc9e3
+[2026-01-15 12:32:12,144] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa080
+[2026-01-15 12:32:12,144] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa100 encrypted: 010105ffffb3c9d4 -> 424e05fffffcc9e3
+[2026-01-15 12:32:12,211] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa100
+[2026-01-15 12:32:12,212] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0xa180 (data_addr=0x8200): 64 bytes -> 128 bytes
+[2026-01-15 12:32:12,212] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa180 encrypted: 0102030405ffffff -> 424d033346ffffff
+[2026-01-15 12:32:12,279] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa180
+[2026-01-15 12:32:12,279] chirp.wxui.serialtrace - INFO: Serial trace file closed: C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-5arl09jv.txt
+[2026-01-15 12:34:23,741] chirp.wxui.main - DEBUG: Doing open from 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_EA4ITG_V3_10-12-25 CHIRP.img'
+[2026-01-15 12:34:23,741] chirp.chirp_common - DEBUG: Loaded metadata: {'mem_extra': {}, 'rclass': 'DynamicRadioAlias', 'vendor': 'Baofeng', 'model': 'UV-5R Mini', 'variant': '', 'chirp_version': 'py3dev'}
+[2026-01-15 12:34:23,742] chirp.chirp_common - DEBUG: Loaded metadata: {'mem_extra': {}, 'rclass': 'DynamicRadioAlias', 'vendor': 'Baofeng', 'model': 'UV-5R Mini', 'variant': '', 'chirp_version': 'py3dev'}
+[2026-01-15 12:34:23,742] chirp.chirp_common - DEBUG: Parsed version 'py3dev' to (0,)
+[2026-01-15 12:34:23,742] chirp.chirp_common - DEBUG: Parsed version 'py3dev' to (0,)
+[2026-01-15 12:34:23,908] chirp.wxui.common - WARNING: Not showing 0 lines of logs (error=False,show=True)
+[2026-01-15 12:34:23,909] chirp.wxui.main - DEBUG: File exists in recent, moving to front
+[2026-01-15 12:34:23,909] chirp.wxui.main - DEBUG: Recent is now ['C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_EA4ITG_V3_10-12-25 CHIRP.img', 'C:\\Users\\Dedosoa\\Documents\\radio\\Baofeng_UV-5R Mini_20260115.img', 'C:\\Users\\Dedosoa\\Documents\\radio\\chirp\\chirp\\stock_configs\\EU LPD and PMR Channels.csv']
+[2026-01-15 12:34:23,946] chirp.wxui.memedit - DEBUG: Adding mem.extra column bcl as ChirpFlagColumn
+[2026-01-15 12:34:23,947] chirp.wxui.memedit - DEBUG: Adding mem.extra column pttid as ChirpChoiceColumn
+[2026-01-15 12:34:23,948] chirp.wxui.memedit - DEBUG: Adding mem.extra column scode as ChirpChoiceColumn
+[2026-01-15 12:34:23,949] chirp.wxui.memedit - DEBUG: Adding mem.extra column sqmode as ChirpFlagColumn
+[2026-01-15 12:34:23,949] chirp.wxui.memedit - DEBUG: Adding mem.extra column fhss as ChirpFlagColumn
+[2026-01-15 12:34:44,691] chirp.wxui.main - INFO: Saved upload backup to C:\Users\Dedosoa\AppData\Roaming\CHIRP\backups\Baofeng_UV-5R_Mini_upload_20260115T123444.img
+[2026-01-15 12:34:44,707] chirp.wxui.clone - DEBUG: All system ports: [{'device': 'COM1', 'name': 'COM1', 'description': 'Puerto de comunicaciones (COM1)', 'hwid': 'ACPI\\PNP0501\\0', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': '(Tipos de puerto estándar)', 'product': None, 'interface': None}, {'device': 'COM6', 'name': 'COM6', 'description': 'com0com - serial port emulator (COM6)', 'hwid': 'COM0COM\\PORT\\CNCA1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}, {'device': 'COM7', 'name': 'COM7', 'description': 'com0com - serial port emulator (COM7)', 'hwid': 'COM0COM\\PORT\\CNCB1', 'vid': None, 'pid': None, 'serial_number': None, 'location': None, 'manufacturer': 'Vyacheslav Frolov', 'product': None, 'interface': None}]
+[2026-01-15 12:34:44,798] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:34:44,798] chirp.wxui.clone - DEBUG: Automatically chose last-used port COM10 for Baofeng UV-5R Mini
+[2026-01-15 12:34:44,837] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:34:44,837] chirp.wxui.clone - DEBUG: Automatically chose last-used port COM10 for Baofeng UV-5R Mini
+[2026-01-15 12:35:03,793] chirp.wxui.clone - DEBUG: Showing pre_upload prompt
+[2026-01-15 12:35:05,129] chirp.wxui.clone - DEBUG: Setting flag for prompt pre_upload
+[2026-01-15 12:35:05,129] chirp.wxui.clone - DEBUG: Opening serial 'COM10' after upload prompt
+[2026-01-15 12:35:05,130] chirp.wxui.serialtrace - INFO: Serial trace file created: C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-hmp883pe.txt
+[2026-01-15 12:35:05,130] chirp.wxui.clone - DEBUG: Serial opened: SerialTrace<id=0x1b85861e620, open=True>(port='COM10', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=0.25, xonxoff=False, rtscts=False, dsrdtr=False) (rts=True dtr=True)
+[2026-01-15 12:35:05,130] chirp.wxui.clone - DEBUG: Selected <class 'chirp.drivers.baofeng_uv17Pro.UV5RMini'>
+[2026-01-15 12:35:05,130] chirp.wxui.clone - DEBUG: Recorded last-used port COM10 for Baofeng UV-5R Mini
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - INFO: sync_out() called for UV-5R Mini model
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - INFO: Current port: COM10
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - DEBUG: Checking port: com10
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - INFO: Port COM10 appears to be a virtual/bridge port (COM10)
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE upload implementation
+[2026-01-15 12:35:05,131] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE identification sequence (timeout 5.0s)
+[2026-01-15 12:35:05,148] chirp.drivers.baofeng_uv17Pro - DEBUG: Sending ident magic (BLE): b'PROGRAMCOLORPROU'
+[2026-01-15 12:35:05,623] chirp.drivers.baofeng_uv17Pro - INFO: Using BLE block size: 128 bytes
+[2026-01-15 12:35:05,623] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 0: 0x0000-0x8040 (size 0x8040)
+[2026-01-15 12:35:05,624] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0000 encrypted: 0000501400005014 -> 0000502300005023
+[2026-01-15 12:35:05,690] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0000
+[2026-01-15 12:35:05,691] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0080 encrypted: 0000531400005314 -> 0000532300005323
+[2026-01-15 12:35:05,758] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0080
+[2026-01-15 12:35:05,758] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0100 encrypted: 0050034300500343 -> 001f0374001f0374
+[2026-01-15 12:35:05,825] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0100
+[2026-01-15 12:35:05,826] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0180 encrypted: 0000481400004214 -> 0000482300004223
+[2026-01-15 12:35:05,893] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0180
+[2026-01-15 12:35:05,893] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0200 encrypted: 0075561400755014 -> 003a5623003a5023
+[2026-01-15 12:35:05,960] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0200
+[2026-01-15 12:35:05,961] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0280 encrypted: 0025571400255114 -> 006a5723006a5123
+[2026-01-15 12:35:06,028] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0280
+[2026-01-15 12:35:06,028] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0300 encrypted: 0075571400755114 -> 003a5723003a5123
+[2026-01-15 12:35:06,095] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0300
+[2026-01-15 12:35:06,096] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0380 encrypted: 0025561400255014 -> 006a5623006a5023
+[2026-01-15 12:35:06,163] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0380
+[2026-01-15 12:35:06,163] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0400 encrypted: 0000571400005114 -> 0000572300005123
+[2026-01-15 12:35:06,230] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0400
+[2026-01-15 12:35:06,230] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0480 encrypted: 0000904300004044 -> 0000907400004073
+[2026-01-15 12:35:06,343] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0480
+[2026-01-15 12:35:06,343] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0500 encrypted: 0000924300001643 -> 0000927400001674
+[2026-01-15 12:35:06,410] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0500
+[2026-01-15 12:35:06,411] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0580 encrypted: 0050874300501143 -> 001f8774001f1174
+[2026-01-15 12:35:06,478] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0580
+[2026-01-15 12:35:06,478] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0600 encrypted: 0000934300001743 -> 0000937400001774
+[2026-01-15 12:35:06,545] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0600
+[2026-01-15 12:35:06,546] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0680 encrypted: 0025934300251743 -> 006a9374006a1774
+[2026-01-15 12:35:06,613] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0680
+[2026-01-15 12:35:06,613] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0700 encrypted: 0075894300751343 -> 003a8974003a1374
+[2026-01-15 12:35:06,680] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0700
+[2026-01-15 12:35:06,681] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0780 encrypted: 0000874300001143 -> 0000877400001174
+[2026-01-15 12:35:06,748] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0780
+[2026-01-15 12:35:06,748] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0800 encrypted: 0050874300501143 -> 001f8774001f1174
+[2026-01-15 12:35:06,838] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0800
+[2026-01-15 12:35:06,838] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0880 encrypted: 0050561400505014 -> 001f5623001f5023
+[2026-01-15 12:35:06,905] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0880
+[2026-01-15 12:35:06,906] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0900 encrypted: 0000571400005114 -> 0000572300005123
+[2026-01-15 12:35:06,973] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0900
+[2026-01-15 12:35:06,973] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0980 encrypted: 0025904300251443 -> 006a9074006a1474
+[2026-01-15 12:35:07,040] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0980
+[2026-01-15 12:35:07,041] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0a00 encrypted: 0050934300501743 -> 001f9374001f1774
+[2026-01-15 12:35:07,108] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0a00
+[2026-01-15 12:35:07,108] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0a80 encrypted: 0000604400001044 -> 0000607300001073
+[2026-01-15 12:35:07,175] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0a80
+[2026-01-15 12:35:07,176] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0b00 encrypted: 7543604475436044 -> 360c6073360c6073
+[2026-01-15 12:35:07,243] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0b00
+[2026-01-15 12:35:07,243] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0b80 encrypted: 7593604475936044 -> 36dc607336dc6073
+[2026-01-15 12:35:07,310] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0b80
+[2026-01-15 12:35:07,311] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0c00 encrypted: 7543614475436144 -> 360c6173360c6173
+[2026-01-15 12:35:07,378] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0c00
+[2026-01-15 12:35:07,378] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0c80 encrypted: 7593614475936144 -> 36dc617336dc6173
+[2026-01-15 12:35:07,445] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0c80
+[2026-01-15 12:35:07,446] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0d00 encrypted: 0005581400055814 -> 004a5823004a5823
+[2026-01-15 12:35:07,514] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0d00
+[2026-01-15 12:35:07,514] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0d80 encrypted: 0050581400505814 -> 001f5823001f5823
+[2026-01-15 12:35:07,581] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0d80
+[2026-01-15 12:35:07,581] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0e00 encrypted: 0000784300905914 -> 0000787400df5923
+[2026-01-15 12:35:07,648] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0e00
+[2026-01-15 12:35:07,649] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0e80 encrypted: 0010684300106843 -> 005f6874005f6874
+[2026-01-15 12:35:07,738] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0e80
+[2026-01-15 12:35:07,738] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0f00 encrypted: 0095674300505814 -> 00da6774001f5823
+[2026-01-15 12:35:07,805] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0f00
+[2026-01-15 12:35:07,806] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x0f80 encrypted: 0090684300255914 -> 00df6874006a5923
+[2026-01-15 12:35:07,873] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x0f80
+[2026-01-15 12:35:07,873] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1000 encrypted: 0075664300575814 -> 003a667400185823
+[2026-01-15 12:35:07,940] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1000
+[2026-01-15 12:35:07,941] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1080 encrypted: 0055664300755814 -> 001a6674003a5823
+[2026-01-15 12:35:08,008] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1080
+[2026-01-15 12:35:08,008] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1100 encrypted: 0095534300505814 -> 00da5374001f5823
+[2026-01-15 12:35:08,076] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1100
+[2026-01-15 12:35:08,076] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1180 encrypted: 0060591400505243 -> 002f5923001f5274
+[2026-01-15 12:35:08,143] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1180
+[2026-01-15 12:35:08,143] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1200 encrypted: 0000591400957443 -> 0000592300da7474
+[2026-01-15 12:35:08,210] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1200
+[2026-01-15 12:35:08,211] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1280 encrypted: 0020761300207613 -> 006f7624006f7624
+[2026-01-15 12:35:08,278] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1280
+[2026-01-15 12:35:08,278] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1300 encrypted: 0000711300007113 -> 0000712400007124
+[2026-01-15 12:35:08,345] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1300
+[2026-01-15 12:35:08,346] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1380 encrypted: 0025661500256615 -> 006a6622006a6622
+[2026-01-15 12:35:08,413] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1380
+[2026-01-15 12:35:08,413] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1400 encrypted: 0000661500006615 -> 0000662200006622
+[2026-01-15 12:35:08,481] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1400
+[2026-01-15 12:35:08,481] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1480 encrypted: 0000681500006815 -> 0000682200006822
+[2026-01-15 12:35:08,570] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1480
+[2026-01-15 12:35:08,571] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1500 encrypted: 0075641500756415 -> 003a6422003a6422
+[2026-01-15 12:35:08,638] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1500
+[2026-01-15 12:35:08,638] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1580 encrypted: 0025661500256615 -> 006a6622006a6622
+[2026-01-15 12:35:08,728] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1580
+[2026-01-15 12:35:08,728] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1600 encrypted: 0025681500256815 -> 006a6822006a6822
+[2026-01-15 12:35:08,795] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1600
+[2026-01-15 12:35:08,796] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1680 encrypted: 0050871100508711 -> 001f8726001f8726
+[2026-01-15 12:35:08,863] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1680
+[2026-01-15 12:35:08,863] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1700 encrypted: 0000711200007112 -> 0000712500007125
+[2026-01-15 12:35:08,930] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1700
+[2026-01-15 12:35:08,931] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1780 encrypted: 0000081300000813 -> 0000082400000824
+[2026-01-15 12:35:08,998] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1780
+[2026-01-15 12:35:08,998] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1800 encrypted: 0075861100758611 -> 003a8626003a8626
+[2026-01-15 12:35:09,065] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1800
+[2026-01-15 12:35:09,066] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1880 encrypted: 0050181200501812 -> 001f1825001f1825
+[2026-01-15 12:35:09,133] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1880
+[2026-01-15 12:35:09,133] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1900 encrypted: 0075571500755715 -> 003a5722003a5722
+[2026-01-15 12:35:09,200] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1900
+[2026-01-15 12:35:09,201] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1980 encrypted: 0000871300008713 -> 0000872400008724
+[2026-01-15 12:35:09,268] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1980
+[2026-01-15 12:35:09,268] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1a00 encrypted: 0000543800005438 -> 0000540f0000540f
+[2026-01-15 12:35:09,335] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1a00
+[2026-01-15 12:35:09,336] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1a80 encrypted: 0000551400005514 -> 0000552300005523
+[2026-01-15 12:35:09,403] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1a80
+[2026-01-15 12:35:09,403] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,471] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1b00
+[2026-01-15 12:35:09,471] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,538] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1b80
+[2026-01-15 12:35:09,538] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,606] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1c00
+[2026-01-15 12:35:09,606] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,696] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1c80
+[2026-01-15 12:35:09,696] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,763] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1d00
+[2026-01-15 12:35:09,763] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,831] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1d80
+[2026-01-15 12:35:09,831] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,898] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1e00
+[2026-01-15 12:35:09,898] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:09,966] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1e80
+[2026-01-15 12:35:09,966] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,033] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1f00
+[2026-01-15 12:35:10,034] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x1f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,100] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x1f80
+[2026-01-15 12:35:10,101] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,168] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2000
+[2026-01-15 12:35:10,168] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,235] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2080
+[2026-01-15 12:35:10,236] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,303] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2100
+[2026-01-15 12:35:10,303] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,370] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2180
+[2026-01-15 12:35:10,371] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,438] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2200
+[2026-01-15 12:35:10,438] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,505] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2280
+[2026-01-15 12:35:10,506] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,575] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2300
+[2026-01-15 12:35:10,575] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,640] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2380
+[2026-01-15 12:35:10,641] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,708] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2400
+[2026-01-15 12:35:10,708] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,776] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2480
+[2026-01-15 12:35:10,776] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,843] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2500
+[2026-01-15 12:35:10,843] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,910] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2580
+[2026-01-15 12:35:10,911] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:10,978] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2600
+[2026-01-15 12:35:10,978] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,046] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2680
+[2026-01-15 12:35:11,046] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,113] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2700
+[2026-01-15 12:35:11,113] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,180] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2780
+[2026-01-15 12:35:11,181] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,271] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2800
+[2026-01-15 12:35:11,271] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,338] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2880
+[2026-01-15 12:35:11,338] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,406] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2900
+[2026-01-15 12:35:11,406] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,473] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2980
+[2026-01-15 12:35:11,473] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,540] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2a00
+[2026-01-15 12:35:11,541] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,631] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2a80
+[2026-01-15 12:35:11,631] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,698] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2b00
+[2026-01-15 12:35:11,698] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,766] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2b80
+[2026-01-15 12:35:11,766] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,833] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2c00
+[2026-01-15 12:35:11,833] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,900] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2c80
+[2026-01-15 12:35:11,901] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:11,968] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2d00
+[2026-01-15 12:35:11,968] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,036] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2d80
+[2026-01-15 12:35:12,036] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,103] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2e00
+[2026-01-15 12:35:12,103] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,170] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2e80
+[2026-01-15 12:35:12,171] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,261] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2f00
+[2026-01-15 12:35:12,261] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x2f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,328] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x2f80
+[2026-01-15 12:35:12,329] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,396] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3000
+[2026-01-15 12:35:12,396] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,486] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3080
+[2026-01-15 12:35:12,486] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,553] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3100
+[2026-01-15 12:35:12,553] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,621] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3180
+[2026-01-15 12:35:12,621] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,688] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3200
+[2026-01-15 12:35:12,688] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,756] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3280
+[2026-01-15 12:35:12,756] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,823] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3300
+[2026-01-15 12:35:12,824] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,891] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3380
+[2026-01-15 12:35:12,891] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:12,958] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3400
+[2026-01-15 12:35:12,958] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,026] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3480
+[2026-01-15 12:35:13,026] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,093] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3500
+[2026-01-15 12:35:13,093] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,160] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3580
+[2026-01-15 12:35:13,161] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,228] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3600
+[2026-01-15 12:35:13,228] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,296] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3680
+[2026-01-15 12:35:13,296] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,363] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3700
+[2026-01-15 12:35:13,364] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,453] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3780
+[2026-01-15 12:35:13,453] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,543] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3800
+[2026-01-15 12:35:13,543] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,611] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3880
+[2026-01-15 12:35:13,611] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,678] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3900
+[2026-01-15 12:35:13,678] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,746] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3980
+[2026-01-15 12:35:13,746] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,813] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3a00
+[2026-01-15 12:35:13,814] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,881] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3a80
+[2026-01-15 12:35:13,881] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:13,948] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3b00
+[2026-01-15 12:35:13,948] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,016] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3b80
+[2026-01-15 12:35:14,016] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,084] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3c00
+[2026-01-15 12:35:14,084] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,151] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3c80
+[2026-01-15 12:35:14,151] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,218] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3d00
+[2026-01-15 12:35:14,218] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,286] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3d80
+[2026-01-15 12:35:14,286] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,353] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3e00
+[2026-01-15 12:35:14,353] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,421] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3e80
+[2026-01-15 12:35:14,421] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,488] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3f00
+[2026-01-15 12:35:14,489] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x3f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,556] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x3f80
+[2026-01-15 12:35:14,556] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,623] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4000
+[2026-01-15 12:35:14,624] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,713] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4080
+[2026-01-15 12:35:14,713] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,781] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4100
+[2026-01-15 12:35:14,781] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,871] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4180
+[2026-01-15 12:35:14,871] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:14,938] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4200
+[2026-01-15 12:35:14,938] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,006] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4280
+[2026-01-15 12:35:15,006] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,073] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4300
+[2026-01-15 12:35:15,074] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,141] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4380
+[2026-01-15 12:35:15,141] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,231] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4400
+[2026-01-15 12:35:15,231] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,298] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4480
+[2026-01-15 12:35:15,298] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,366] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4500
+[2026-01-15 12:35:15,366] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,433] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4580
+[2026-01-15 12:35:15,433] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,501] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4600
+[2026-01-15 12:35:15,501] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,568] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4680
+[2026-01-15 12:35:15,568] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,636] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4700
+[2026-01-15 12:35:15,636] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,703] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4780
+[2026-01-15 12:35:15,704] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,793] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4800
+[2026-01-15 12:35:15,794] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,861] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4880
+[2026-01-15 12:35:15,861] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:15,951] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4900
+[2026-01-15 12:35:15,951] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,018] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4980
+[2026-01-15 12:35:16,019] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,086] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4a00
+[2026-01-15 12:35:16,086] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,153] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4a80
+[2026-01-15 12:35:16,154] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,221] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4b00
+[2026-01-15 12:35:16,221] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,288] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4b80
+[2026-01-15 12:35:16,289] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,356] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4c00
+[2026-01-15 12:35:16,356] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,423] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4c80
+[2026-01-15 12:35:16,424] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,491] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4d00
+[2026-01-15 12:35:16,491] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,558] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4d80
+[2026-01-15 12:35:16,558] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,626] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4e00
+[2026-01-15 12:35:16,626] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,716] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4e80
+[2026-01-15 12:35:16,716] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,783] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4f00
+[2026-01-15 12:35:16,784] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x4f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,851] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x4f80
+[2026-01-15 12:35:16,851] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,918] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5000
+[2026-01-15 12:35:16,919] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:16,986] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5080
+[2026-01-15 12:35:16,986] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,053] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5100
+[2026-01-15 12:35:17,054] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,121] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5180
+[2026-01-15 12:35:17,121] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,188] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5200
+[2026-01-15 12:35:17,188] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,256] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5280
+[2026-01-15 12:35:17,256] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,368] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5300
+[2026-01-15 12:35:17,369] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,436] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5380
+[2026-01-15 12:35:17,436] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,503] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5400
+[2026-01-15 12:35:17,504] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,571] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5480
+[2026-01-15 12:35:17,571] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,638] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5500
+[2026-01-15 12:35:17,639] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,706] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5580
+[2026-01-15 12:35:17,706] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,773] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5600
+[2026-01-15 12:35:17,774] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,841] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5680
+[2026-01-15 12:35:17,841] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,908] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5700
+[2026-01-15 12:35:17,909] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:17,976] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5780
+[2026-01-15 12:35:17,976] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,043] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5800
+[2026-01-15 12:35:18,044] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,111] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5880
+[2026-01-15 12:35:18,111] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,178] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5900
+[2026-01-15 12:35:18,179] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,246] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5980
+[2026-01-15 12:35:18,246] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,313] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5a00
+[2026-01-15 12:35:18,314] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,381] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5a80
+[2026-01-15 12:35:18,381] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,448] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5b00
+[2026-01-15 12:35:18,448] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,516] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5b80
+[2026-01-15 12:35:18,516] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,583] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5c00
+[2026-01-15 12:35:18,584] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,651] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5c80
+[2026-01-15 12:35:18,651] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,718] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5d00
+[2026-01-15 12:35:18,719] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,786] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5d80
+[2026-01-15 12:35:18,786] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,853] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5e00
+[2026-01-15 12:35:18,854] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,921] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5e80
+[2026-01-15 12:35:18,921] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:18,988] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5f00
+[2026-01-15 12:35:18,989] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x5f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,056] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x5f80
+[2026-01-15 12:35:19,056] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,123] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6000
+[2026-01-15 12:35:19,124] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,191] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6080
+[2026-01-15 12:35:19,191] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,258] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6100
+[2026-01-15 12:35:19,259] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,326] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6180
+[2026-01-15 12:35:19,326] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,393] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6200
+[2026-01-15 12:35:19,394] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,461] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6280
+[2026-01-15 12:35:19,461] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,528] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6300
+[2026-01-15 12:35:19,529] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,596] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6380
+[2026-01-15 12:35:19,596] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,663] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6400
+[2026-01-15 12:35:19,664] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,731] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6480
+[2026-01-15 12:35:19,731] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,798] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6500
+[2026-01-15 12:35:19,799] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,866] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6580
+[2026-01-15 12:35:19,866] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:19,933] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6600
+[2026-01-15 12:35:19,934] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,001] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6680
+[2026-01-15 12:35:20,001] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,068] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6700
+[2026-01-15 12:35:20,069] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,136] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6780
+[2026-01-15 12:35:20,136] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,203] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6800
+[2026-01-15 12:35:20,204] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,271] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6880
+[2026-01-15 12:35:20,271] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,339] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6900
+[2026-01-15 12:35:20,339] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,406] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6980
+[2026-01-15 12:35:20,406] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,473] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6a00
+[2026-01-15 12:35:20,474] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,541] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6a80
+[2026-01-15 12:35:20,541] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,608] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6b00
+[2026-01-15 12:35:20,609] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,676] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6b80
+[2026-01-15 12:35:20,676] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,743] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6c00
+[2026-01-15 12:35:20,744] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6c80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,833] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6c80
+[2026-01-15 12:35:20,834] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,924] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6d00
+[2026-01-15 12:35:20,924] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:20,991] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6d80
+[2026-01-15 12:35:20,991] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,059] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6e00
+[2026-01-15 12:35:21,059] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,126] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6e80
+[2026-01-15 12:35:21,126] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,193] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6f00
+[2026-01-15 12:35:21,194] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x6f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,261] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x6f80
+[2026-01-15 12:35:21,261] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7000 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,351] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7000
+[2026-01-15 12:35:21,351] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7080 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,418] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7080
+[2026-01-15 12:35:21,419] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7100 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,486] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7100
+[2026-01-15 12:35:21,486] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7180 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,576] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7180
+[2026-01-15 12:35:21,576] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7200 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,643] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7200
+[2026-01-15 12:35:21,644] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7280 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,711] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7280
+[2026-01-15 12:35:21,711] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7300 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,778] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7300
+[2026-01-15 12:35:21,779] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7380 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,846] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7380
+[2026-01-15 12:35:21,846] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7400 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,913] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7400
+[2026-01-15 12:35:21,914] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7480 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:21,981] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7480
+[2026-01-15 12:35:21,981] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7500 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,049] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7500
+[2026-01-15 12:35:22,049] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7580 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,138] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7580
+[2026-01-15 12:35:22,139] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7600 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,206] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7600
+[2026-01-15 12:35:22,206] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7680 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,273] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7680
+[2026-01-15 12:35:22,274] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7700 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,341] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7700
+[2026-01-15 12:35:22,341] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7780 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,408] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7780
+[2026-01-15 12:35:22,409] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7800 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,476] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7800
+[2026-01-15 12:35:22,476] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7880 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,544] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7880
+[2026-01-15 12:35:22,544] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7900 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,611] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7900
+[2026-01-15 12:35:22,611] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7980 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,678] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7980
+[2026-01-15 12:35:22,679] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7a00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,746] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7a00
+[2026-01-15 12:35:22,746] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7a80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,813] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7a80
+[2026-01-15 12:35:22,814] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7b00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,881] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7b00
+[2026-01-15 12:35:22,881] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7b80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:22,948] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7b80
+[2026-01-15 12:35:22,949] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7c00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,016] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7c00
+[2026-01-15 12:35:23,016] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7c80 encrypted: 0000151200001512 -> 0000152500001525
+[2026-01-15 12:35:23,084] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7c80
+[2026-01-15 12:35:23,084] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7d00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,151] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7d00
+[2026-01-15 12:35:23,151] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7d80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,218] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7d80
+[2026-01-15 12:35:23,219] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7e00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,308] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7e00
+[2026-01-15 12:35:23,309] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7e80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,376] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7e80
+[2026-01-15 12:35:23,376] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7f00 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,444] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7f00
+[2026-01-15 12:35:23,444] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x7f80 encrypted: ffffffffffffffff -> ffffffffffffffff
+[2026-01-15 12:35:23,533] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x7f80
+[2026-01-15 12:35:23,534] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0x8000 (data_addr=0x8000): 64 bytes -> 128 bytes
+[2026-01-15 12:35:23,534] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x8000 encrypted: 0104050203070500 -> 424b053540480500
+[2026-01-15 12:35:23,624] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x8000
+[2026-01-15 12:35:23,624] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 1: 0x9000-0x9040 (size 0x0040)
+[2026-01-15 12:35:23,624] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0x9000 (data_addr=0x8040): 64 bytes -> 128 bytes
+[2026-01-15 12:35:23,624] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0x9000 encrypted: 0300040401080100 -> 4000043342470100
+[2026-01-15 12:35:23,691] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0x9000
+[2026-01-15 12:35:23,691] chirp.drivers.baofeng_uv17Pro - INFO: BLE Segment 2: 0xa000-0xa1c0 (size 0x01c0)
+[2026-01-15 12:35:23,691] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa000 encrypted: 010000ffffffff01 -> 420000ffffffff36
+[2026-01-15 12:35:23,758] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa000
+[2026-01-15 12:35:23,759] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa080 encrypted: 010007ffffb3c9d4 -> 420007fffffcc9e3
+[2026-01-15 12:35:23,826] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa080
+[2026-01-15 12:35:23,826] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa100 encrypted: 010105ffffb3c9d4 -> 424e05fffffcc9e3
+[2026-01-15 12:35:23,893] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa100
+[2026-01-15 12:35:23,894] chirp.drivers.baofeng_uv17Pro - DEBUG: Padding block at 0xa180 (data_addr=0x8200): 64 bytes -> 128 bytes
+[2026-01-15 12:35:23,894] chirp.drivers.baofeng_uv17Pro - DEBUG: Block 0xa180 encrypted: 0102030405ffffff -> 424d033346ffffff
+[2026-01-15 12:35:23,961] chirp.drivers.baofeng_uv17Pro - DEBUG: ACK received for block 0xa180
+[2026-01-15 12:35:23,961] chirp.wxui.serialtrace - INFO: Serial trace file closed: C:\Users\Dedosoa\AppData\Local\Temp\chirp-trace-hmp883pe.txt
